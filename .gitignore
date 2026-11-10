@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+*/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+*.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Expo
+.expo/
+*/.expo/
+dist/
+web-build/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+*/.claude/
+*CLAUDE.md
+*AGENTS.md
