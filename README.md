@@ -2,6 +2,13 @@
 
 > **Effortless Expense Sharing, Real-Time Group Balances & Smart UPI Settlements**
 
+[![Backend Status](https://img.shields.io/badge/Render-Live_Cloud_API-46E3B7?style=flat-square&logo=render&logoColor=white)](https://splitflow-wn0x.onrender.com/)
+[![Database](https://img.shields.io/badge/Database-MongoDB_Atlas-green?style=flat-square&logo=mongodb&logoColor=white)](https://cloud.mongodb.com/)
+[![Expo](https://img.shields.io/badge/Mobile-Expo_SDK_58-000020?style=flat-square&logo=expo&logoColor=white)](https://expo.dev/)
+
+- **🌐 Live Production Backend**: [`https://splitflow-wn0x.onrender.com/`](https://splitflow-wn0x.onrender.com/)
+- **📡 Base API Endpoint**: [`https://splitflow-wn0x.onrender.com/api`](https://splitflow-wn0x.onrender.com/api)
+
 SplitFlow is a full-stack, monorepo mobile and backend platform designed to eliminate the social friction and financial chaos of shared expenses. Whether managing group travel costs, flatmate rent & utilities, dinner outings, or party tabs, SplitFlow provides transparent, real-time expense calculations with deep UPI and payment QR integration.
 
 Built with a **React Native (Expo)** mobile application and a high-performance **Node.js + Express + MongoDB Atlas** backend.

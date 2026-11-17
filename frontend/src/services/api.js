@@ -1,11 +1,11 @@
 import { Platform } from 'react-native';
 
+const DEFAULT_CLOUD_URL = 'https://splitflow-wn0x.onrender.com/api';
 const DEFAULT_LAN_URL = 'http://192.168.31.87:3000/api';
 const DEFAULT_LOCAL_URL = 'http://localhost:3000/api';
 
 const BASE_URL =
-  process.env.EXPO_PUBLIC_API_URL ||
-  (Platform.OS === 'web' ? DEFAULT_LOCAL_URL : DEFAULT_LAN_URL);
+  process.env.EXPO_PUBLIC_API_URL || DEFAULT_CLOUD_URL;
 
 let tokenGetter = null;
 
